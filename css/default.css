@@ -20,7 +20,7 @@ hr{display:none;}
 main,header,section,nav,footer,aside,article,figure{display:block;}
 a{color:#000;text-decoration:none;}
 
-/*font*/
+/*font
 @font-face {
   font-family: 'Avenir';
   src: url("../font/Avenir-Black.eot"), url("../font/Avenir-Black.woff") format("woff"), url("../font/Avenir-Black.ttf") format("truetype");
@@ -58,6 +58,14 @@ a{color:#000;text-decoration:none;}
   src: url("../font/Avenir-Light.eot"), url("../font/Avenir-Light.woff") format("woff"), url("../font/Avenir-Light.ttf") format("truetype");
   font-weight: 100;
   font-style: normal; }
+
+  */
+
+  @font-face {
+    font-family: 'Avenir';
+    src: url(../font/Avenir.ttc); }
+
+  body { font-family: 'Avenir';}
 
 
 /* Form */
