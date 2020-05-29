@@ -3,3 +3,13 @@
 .main_wrap {height: 100vh;}
 #header .logo {float: none; position: absolute; left: 35px; }
 #header .menu ul {right:0; padding-right: 35px; float:right;}
+
+
+
+.banner .main_text{font-size: 3.1rem; color: #282A31; padding-bottom: 30px; letter-spacing: -.5px; font-weight: 800; padding-left: 35px;}
+.banner .main_text span{color: #2865FF;}
+.banner .btn {margin-left: 35px;}
+.banner .info_text {padding-left: 35px;}
+
+#pg_main .portfolio h1 {padding-left: 35px;}
+#pg_main .portfolio .filter {padding-right: 35px;}
