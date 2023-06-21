@@ -6,10 +6,11 @@ body{font-size: 1rem;  overflow-x:hidden; width: 100% }
 
 
 .main_wrap {height: 100vh;}
+
 #header {position: fixed;;  top: 0; left: 0; right: 0;  box-shadow: 0 2px 8px 0 hsla(0,0%,90.8%,.0); height: 95px; box-sizing: border-box; background-color: #fff; z-index: 30; opacity: .95;}
 #header .content {height: 100%; max-width: 1780px; margin: 0 auto; padding: 0; box-sizing: border-box;}
-#header .content .logo { display: inline-flex; align-items: center; justify-content: center; height: 100%}
-#header .content .menu { display: inline-flex; float: right; height: 95px; align-items: center;}
+#header .content .logo { display: inline-flex; align-items: center; justify-content: center; height: 100%; padding-left: 10px;}
+#header .content .menu { display: inline-flex; float: right; height: 95px; align-items: center; padding-right: 10px;}
 #header .content .menu ul li {float: left; padding-left:40px;}
 #header .content .menu ul li a {display: block; position: relative;font-size: 1rem;  font-weight: 500;height:40px; line-height:40px;}
 #header .content .menu ul li a:before {content: ""; position: absolute; left:0; bottom:12px; width:0; height: 2px; background-color:#000; transition: width 0.5s;}
@@ -17,9 +18,7 @@ body{font-size: 1rem;  overflow-x:hidden; width: 100% }
 
 
 
-.banner { display: block; padding-top: 95px; margin: 0 auto; box-sizing: border-box;}
-
-.banner {width: 1560px; height:100%; margin: 0 auto; box-sizing: border-box; }
+.banner { display: block; padding-top: 95px; margin: 0 auto; box-sizing: border-box;width: 1560px; height:100%; }
 .banner .text { display: inline-block; padding-top: 13.5%; height: 100%}
 .banner .main_text{font-size: 3.1rem; color: #282A31; padding-bottom: 30px; letter-spacing: -.5px; font-weight: 800; float: }
 .banner .main_text span{color: #2865FF;}
@@ -28,10 +27,12 @@ body{font-size: 1rem;  overflow-x:hidden; width: 100% }
 .banner .btn a {color: #fff; transition: .2s all;}
 .banner .btn:hover a {color: #2865FF;}
 .banner .info_text { font-size: .94rem; color: #757b90; line-height: 1.5rem; position: absolute; bottom:85px; }
-.banner .main_img { display:inline-block;position: absolute; float: right; right: -7px; z-index: -1; padding-top:94px; bottom: 0; margin-top: 100px;}
-.banner .scroll {display: inline-block; float: right; right: 170px;position: absolute; bottom:73px; filter:drop-shadow(8px 10px 15px #B4B4BC);}
+.banner .main_img { display:inline-block; position: relative; float: right; margin-right: -180px; z-index: -1; padding-top:94px; bottom: 0; bottom: 0;  background-size: cover;}
 
-/*포트폴리오*/
+.banner .scroll {display: inline-block; float: right; right: 80px;position: absolute; bottom:73px; filter:drop-shadow(8px 10px 15px #B4B4BC);}
+
+/*포트폴리오*/   
+#pg_main {display: block;}   
 #pg_main .portfolio {display: block;width:1560px;margin: 0 auto; padding-top: 195px; }
 #pg_main .portfolio h1 {display: inline-flex; font-size: 1.7rem; color:rgba(#1D1F22,1); padding-bottom: 35px; font-weight: 900;}
 #pg_main .portfolio .filter {display: inline-flex; float: right; padding-top:19px; font-size: .9rem;}
@@ -40,6 +41,7 @@ body{font-size: 1rem;  overflow-x:hidden; width: 100% }
 #pg_main .portfolio .pf_list { display: inline-block;  padding-bottom: 250px; margin: 0 auto; position: relative;}
 #pg_main .portfolio .pf_list .card { float: left; display: inline-block; padding-bottom: 50px; padding-right: 60px; transition: opacity 0.35s, transform 0.35s; ;width:480px; height: 360px; }
 #pg_main .portfolio .pf_list .card:nth-child(3n) {padding-right: 0px;}
+
 #pg_main .portfolio .pf_list .card .inner_img {overflow:hidden; width:100%; height:360px;  border-radius: 6px; position: relative;   }
 #pg_main .portfolio .pf_list .inner_img:hover {box-shadow: 13px 13px 35px rgba(193,198,217,1); background-color:#2865FF;}
 #pg_main .portfolio .pf_list .card .overlay .title {font-size: 1.8rem; position: absolute; top: 47%; left: 50%; transform: translate(-50%, -50%);   color: #fff; white-space: nowrap; overflow: hidden; font-weight: 600;  }
